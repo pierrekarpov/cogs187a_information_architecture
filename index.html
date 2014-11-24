@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Information Architecture of http://www.le.ac.uk/">
+        <meta name="author" content="Alfredo Rodriguez, Casey Graff, Pierre KArpov">
+        <link rel="icon" href="../../favicon.ico">
+
+        <title>Home</title>
+        <link href="./css/main.css" rel="stylesheet">
+        
+        <!-- Bootstrap core CSS -->
+        <link href="./css/bootstrap.min.css" rel="stylesheet">
+        <link href="./css/support.css" rel="stylesheet">
+        
+        <!-- Font Awesome icons-->
+        <link rel="stylesheet" href="./css/font-awesome-4.2.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container-fluid">
+                <div id="top_nav_top_row" class="row">
+                    <div>
+                        <a class="navbar-nav" href="#"><img src="./images/unilogo.png" alt="Home"/></a>
+                    </div>
+                    <form class="navbar-form navbar-right" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search">
+                        </div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                    </form>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">About</a></li>
+                            <li><a href="index.html">Academics</a></li>
+                            <li><a href="index.html">Admission &amp; Aid</a></li>
+                            <li><a href="index.html">Campus Life</a></li>
+                            <li><a href="index.html">Research</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar-right col-sm-4">
+                        <ul class="nav navbar-nav">
+                            <li><a href="index.html">Students</a></li>
+                            <li><a href="index.html">Staff</a></li>
+                            <li><a href="index.html">Parents</a></li>
+                            <li><a href="index.html">Alumni</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!--
+                <div class="row"> //Breadcrumb. Pretty useful, but pretty ugly too. CHECK WITH GROUP
+                    <div class="col-sm=12">
+                        <ol class="breadcrumb">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Library</a></li>
+                            <li class="active">Data</li>
+                        </ol>
+                    </div>
+                </div>
+                -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <div id="main_div" class="container-fluid"> <!--Main div -->
+            <div class="row">
+                <div id="carousel_home_page" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel_home_page" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel_home_page" data-slide-to="1"></li>
+                        <li data-target="#carousel_home_page" data-slide-to="2"></li>
+                        <li data-target="#carousel_home_page" data-slide-to="3"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <a href="#">
+                                <img src="./images/carousel_img_1.jpg" alt="">
+                                <h3 class="carousel-caption">
+                                    Consistently ranked in the top 20 universities in the UK
+                                </h3>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <img src="./images/carousel_img_2.png" alt="">
+                            <h3 class="carousel-caption">
+                                Our global challenges are changing the world
+                            </h3>
+                        </div>
+                        <div class="item">
+                            <img src="./images/carousel_img_3.png" alt="">
+                            <h3 class="carousel-caption">
+                                Knowledge and innovation is our business
+                            </h3>
+                        </div>
+                        <div class="item">
+                            <img src="./images/carousel_img_4.png" alt="">
+                            <h3 class="carousel-caption">
+                                Join our global family of graduates, parents and friends
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel_home_page" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="false"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel_home_page" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div> <!-- End of carousel-->        
+            </div>
+            
+            <h3 id="top_stories_header">Top Stories</h3>
+            <hr>
+            <div class="row">
+                <div class="container-fluid">
+                    <div class="col-sm-3">
+                        <img class="top_story_img" src="./images/top_stories_ww1.jpg" alt=""/>
+                        <h5>The Petal and the Wire’ brings the voices of Leicester WWI veterans to life</h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="top_story_img"  src="./images/top_stories_nation_centre.jpg" alt=""/>
+                        <h5>National Centre for Earth Observation receives £23m investment for world-class environmental science</h5>
+                    </div>
+                    <div class="col-sm-3">
+                        <img class="top_story_img"  src="./images/top_stories_dark_matter.jpg" alt=""/>
+                        <h5>First potential direct detection of Dark Matter revealed</h5>          
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="container-fluid">
+                            <div class="row">
+                                <h4>More Stories</h4>
+                            </div>
+                            <div class="row">
+                                <ul>
+                                    <li><a>DNA fingerprinting drama casts role of Sir Alec Jeffreys</a></li>
+                                    <li><a>Leicester renal research receives over £400,000 from Kidney Research UK</a></li>
+                                    <li><a>Knitting Flanders Field</a></li>
+                                    <li><a>Most likely cause of King Richard III’s death identified</a></li>
+                                </ul>
+                            </div>
+                            <div class="row">
+                                <a>All news and events</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- End of Top Stories row-->
+            
+            <hr>
+            <div class="row">
+                <div class="container_fluid">
+                    <div class="col-sm-8"><img id="tweet_img" src="./images/lastest_tweet.png" alt=""/>&nbsp;</div>
+                    <div id="social_media_div" class="col-sm-4">
+                        <i class="social_media_icon fa fa-facebook-square fa-5x"></i>&nbsp;
+                        <i class="social_media_icon fa fa-twitter-square fa-5x"></i>&nbsp;
+                        <i class="social_media_icon fa fa-youtube-play fa-5x"></i>&nbsp;
+                    </div>
+                </div>
+            </div>
+            
+        </div> <!-- End of Main div -->
+        
+        <div id="bottom_nav_bar" class="container-fluid"> <!--Footer -->
+            <div class="col-sm-10">
+                <div class="container-fluid">
+                    <div class="col-sm-3">
+                        <div class="block">
+                            <h3>Schools</h3>
+                            <ul class="footer-list">
+                                <li><a href="#">Business</a></li>
+                                <li><a href="#">Earth Sciences</a></li>
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">Engineering</a></li>
+                                <li><a href="#">Humanities &amp; Sciences</a></li>
+                                <li><a href="#">Law</a></li>
+                                <li><a href="#">Medicine</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="block">
+                            <h3>Departements</h3>
+                            <ul class="footer-list">
+                                <li><a href="#">Departments A - Z</a></li>
+                                <li><a href="#">Interdisciplinary Programs</a></li>
+                            </ul>
+                            <h3>Research</h3>
+                            <ul class="footer-list">
+                                <li><a href="#">DoResearch</a></li>
+                                <li><a href="#">Interdisciplinary Institutes</a></li>
+                                <li><a href="#">Libraries</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="block">
+                            <h3>About</h3>
+                            <ul class="footer-list">
+                                <li><a href="#">Facts</a></li>
+                                <li><a href="#">History</a></li>
+                            </ul>
+                            <h3>Admission</h3>
+                            <ul class="footer-list">
+                                <li><a href="#">Undergraduate</a></li>
+                                <li><a href="#">Graduate</a></li>
+                                <li><a href="#">Finacial Aid</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="block">
+                            <h3>Ressources</h3>
+                            <ul class="footer-list">
+                                <li><a href="#">A - Z Index</a></li>
+                                <li><a href="#">Campus Map</a></li>
+                                <li><a href="#">Directory</a></li>
+                                <li><a href="#">Profiles</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-graduation-cap fa-fw"></i> <span>Apply</span> 
+                        </a> 
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-plane fa-fw"></i> <span>Visit Campus</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-gift fa-fw"></i> <span>Make a Gift</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-user fa-fw"></i> <span>Find a Job</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-comment-o fa-fw"></i> <span>Contact Us</span>
+                        </a> 
+                    </li>
+                </ul>
+            </div>
+        </div> <!-- End of Footer -->
+        
+        
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+  </body>
+</html>
