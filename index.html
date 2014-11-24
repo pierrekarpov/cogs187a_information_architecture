@@ -36,7 +36,7 @@
                 <div class="row">
                     <div class="col-sm-8">
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="index.html">About</a></li>
+                            <li><a href="index.html">About</a></li>
                             <li><a href="index.html">Academics</a></li>
                             <li><a href="index.html">Admission &amp; Aid</a></li>
                             <li><a href="index.html">Campus Life</a></li>
@@ -135,7 +135,7 @@
                         <img class="top_story_img"  src="./images/top_stories_dark_matter.jpg" alt=""/>
                         <h5>First potential direct detection of Dark Matter revealed</h5>          
                     </div>
-                    <div class="col-sm-3">
+                    <div id="more_stories_div" class="col-sm-3">
                         <div class="container-fluid">
                             <div class="row">
                                 <h4>More Stories</h4>
@@ -149,7 +149,9 @@
                                 </ul>
                             </div>
                             <div class="row">
-                                <a>All news and events</a>
+                                <button type="button" class="btn btn-default" aria-label="Left Align">
+                                    <i class="fa fa-newspaper-o fa-fw"></i> <span>All news and events</span>
+                                </button>
                             </div>
                         </div>
                     </div>
@@ -175,7 +177,7 @@
                 <div class="container-fluid">
                     <div class="col-sm-3">
                         <div class="block">
-                            <h3>Schools</h3>
+                            <h4>Schools</h4>
                             <ul class="footer-list">
                                 <li><a href="#">Business</a></li>
                                 <li><a href="#">Earth Sciences</a></li>
@@ -189,12 +191,12 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="block">
-                            <h3>Departements</h3>
+                            <h4>Departements</h4>
                             <ul class="footer-list">
                                 <li><a href="#">Departments A - Z</a></li>
                                 <li><a href="#">Interdisciplinary Programs</a></li>
                             </ul>
-                            <h3>Research</h3>
+                            <h4>Research</h4>
                             <ul class="footer-list">
                                 <li><a href="#">DoResearch</a></li>
                                 <li><a href="#">Interdisciplinary Institutes</a></li>
@@ -204,12 +206,12 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="block">
-                            <h3>About</h3>
+                            <h4>About</h4>
                             <ul class="footer-list">
                                 <li><a href="#">Facts</a></li>
                                 <li><a href="#">History</a></li>
                             </ul>
-                            <h3>Admission</h3>
+                            <h4>Admission</h4>
                             <ul class="footer-list">
                                 <li><a href="#">Undergraduate</a></li>
                                 <li><a href="#">Graduate</a></li>
@@ -219,7 +221,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="block">
-                            <h3>Ressources</h3>
+                            <h4>Ressources</h4>
                             <ul class="footer-list">
                                 <li><a href="#">A - Z Index</a></li>
                                 <li><a href="#">Campus Map</a></li>
@@ -230,34 +232,22 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-2">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-graduation-cap fa-fw"></i> <span>Apply</span> 
-                        </a> 
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-plane fa-fw"></i> <span>Visit Campus</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-gift fa-fw"></i> <span>Make a Gift</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-user fa-fw"></i> <span>Find a Job</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <i class="fa fa-comment-o fa-fw"></i> <span>Contact Us</span>
-                        </a> 
-                    </li>
-                </ul>
+            <div id="bottom_nav_bar_button_container" class="col-sm-2 btn-group-vertical" role="group">
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <i class="fa fa-graduation-cap fa-fw"></i> <span>Apply</span>
+                </button>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <i class="fa fa-plane fa-fw"></i> <span>Visit Campus</span>
+                </button>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <i class="fa fa-gift fa-fw"></i> <span>Make a Gift</span>
+                </button>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <i class="fa fa-user fa-fw"></i> <span>Find a Job</span>
+                </button>
+                <button type="button" class="btn btn-default" aria-label="Left Align">
+                    <i class="fa fa-comment-o fa-fw"></i> <span>Contact Us</span>
+                </button>
             </div>
         </div> <!-- End of Footer -->
         
