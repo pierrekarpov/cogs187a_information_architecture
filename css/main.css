@@ -54,8 +54,21 @@
     padding-left: 5px;
 }
 
+#bottom_nav_bar h4{
+    color: #F15D2F;
+}
+
 #bottom_nav_bar_button_container {
     margin-top: 0px;
+}
+
+#bottom_nav_bar_button_container button{
+    text-align: left;
+}
+
+#campus_address_div {
+    padding: 5px;
+    color: #666666;
 }
 
 .image_consistency {

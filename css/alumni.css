@@ -1,0 +1,21 @@
+#main_div_alumni h3 {
+    color: #F15D2F;
+    margin-top: 5px;
+}
+
+#main_div_alumni div{
+    margin-left: 15px;
+}
+
+#main_div_alumni a {
+    margin-left: 15px;
+}
+
+#main_div_alumni li {
+    list-style: none;
+}
+
+#main_div_alumni {
+    margin: 5px;
+    margin-bottom: 30px;
+}
