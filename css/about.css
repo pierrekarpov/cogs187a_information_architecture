@@ -1,0 +1,23 @@
+#main_div_about h3 {
+    color: #F15D2F;
+    margin-top: 5px;
+}
+
+#main_div_about div{
+    margin-left: 15px;
+}
+
+#main_div_about a {
+    margin-left: 15px;
+}
+
+
+#main_div_about {
+    margin: 5px;
+    margin-bottom: 30px;
+}
+
+.iframeSpecial {
+    border: none;
+    overflow:hidden;
+}
