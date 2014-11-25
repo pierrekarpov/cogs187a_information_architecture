@@ -8,7 +8,7 @@
 }
 
 #main_div_alumni a {
-    margin-left: 15px;
+    margin-left: 0px;
 }
 
 #main_div_alumni li {
@@ -18,4 +18,8 @@
 #main_div_alumni {
     margin: 5px;
     margin-bottom: 30px;
+}
+
+.ulNoIndent {
+    padding-left: 0px;
 }

@@ -16,3 +16,8 @@
     margin: 5px;
     margin-bottom: 30px;
 }
+
+.iframeSpecial {
+    border: none;
+    overflow:hidden;
+}
