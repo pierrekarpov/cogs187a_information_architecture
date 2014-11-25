@@ -19,6 +19,16 @@ h6, .h6 {
   color: #333;
 }
 
+.alignLeftBtn {
+  text-align: left;
+  color: #428bca;
+}
+
+.alignLeftBtn:hover {
+  text-decoration: underline;
+  color: #428bca;
+}
+
 .sideBanner {
   margin-top: 5px;
   background-color: #f8f8f8;
